@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Nicolas Martinet Blog</title>
+        <link>https://nicolasmtnt.github.io/blog</link>
+        <description>Nicolas Martinet Blog</description>
+        <lastBuildDate>Mon, 03 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Leaving Bol.com]]></title>
+            <link>https://nicolasmtnt.github.io/blog/leaving-bol-dot-com</link>
+            <guid>leaving-bol-dot-com</guid>
+            <pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[I recently made the decision to leave Bol.com.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using KEDA and Prometheus to scale your k8s workloads]]></title>
+            <link>https://nicolasmtnt.github.io/blog/using-keda-and-prometheus</link>
+            <guid>using-keda-and-prometheus</guid>
+            <pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[These days, everyone and their grandma are using Kubernetes and one important]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to setup husky, eslint and prettier within minutes]]></title>
+            <link>https://nicolasmtnt.github.io/blog/how-to-setup-husky-eslint-prettier</link>
+            <guid>how-to-setup-husky-eslint-prettier</guid>
+            <pubDate>Tue, 12 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Every project these days needs a linter of some sorts. So, let’s set one up for our React/Typescript project!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How I structure my React /TS applications (2021)]]></title>
+            <link>https://nicolasmtnt.github.io/blog/how-i-structure-my-react-ts-applications-2021</link>
+            <guid>how-i-structure-my-react-ts-applications-2021</guid>
+            <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[(code is hosted at//github.com/djamaile/react-boilerplate-2021)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How I structure my React/TS applications]]></title>
+            <link>https://nicolasmtnt.github.io/blog/how-i-structure-my-react-ts-applications</link>
+            <guid>how-i-structure-my-react-ts-applications</guid>
+            <pubDate>Wed, 15 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[(I have updated my react structure, you can read it here//dev.to/djamaile/how-i-structure-my-react-ts-applications-2021-145j)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Small React(ion): From Kanji to Hiragana!]]></title>
+            <link>https://nicolasmtnt.github.io/blog/small-react-ion-from-kanji-to-hiragana</link>
+            <guid>small-react-ion-from-kanji-to-hiragana</guid>
+            <pubDate>Wed, 08 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am starting a series talking about my small React applications. To begin, we start with this small application I wrote about 7 months ago. If you just want to see the code, here you go//github.com/djamaile/kanji-to-hiragana/]]></description>
+        </item>
+    </channel>
+</rss>

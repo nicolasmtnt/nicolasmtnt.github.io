@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[194],{4598:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/bol-com","name":"Bol.com","count":1,"permalink":"/blog/tags/bol-com"}')}}]);
