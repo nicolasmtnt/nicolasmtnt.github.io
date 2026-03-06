@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nicolas Martinet | Photography</title>
+    <meta
+      name="description"
+      content="Photography by Nicolas Martinet. A responsive gallery with hover and click interactions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="gallery-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">Nicolas Martinet</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html#top">About</a>
+        <a href="index.html#publications">Publication</a>
+        <a href="photography.html" aria-current="page">Photography</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color mode">
+        <span class="theme-toggle-icon" aria-hidden="true">
+          <img class="icon icon-moon" src="assets/icons/moon.svg" alt="" />
+          <img class="icon icon-sun" src="assets/icons/sun.svg" alt="" />
+        </span>
+        <span data-theme-toggle-label>Dark Mode</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="gallery-intro reveal visible">
+        <h1>Photography</h1>
+      </section>
+
+      <section class="photo-grid" aria-label="Photography gallery">
+        <figure class="photo-card reveal">
+          <img
+            src="photography/607989031_18400209781134411_3717792201317474394_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/559298950_18386399626134411_8047910678007424279_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/581050634_18393347137134411_405184122106465745_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/572890129_18392059969134411_865053153083070051_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/605033869_18398834086134411_7494888877228504164_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/631965535_18378530530092219_3740024852587515553_n.webp"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/587808578_18395894647134411_6219926413680423623_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/575375851_18391933684134411_4870763996658767991_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/623505251_18087041660131839_2988645418344925450_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/587019382_18395065636134411_7456228076070771557_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/639511688_18564662905024020_7650103643055358374_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="photo-card reveal">
+          <img
+            src="photography/561912175_18387510202134411_5130313534362615083_n.jpg"
+            alt="Photography by Nicolas Martinet"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <div class="lightbox" aria-hidden="true" data-lightbox>
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image">
+        Close
+      </button>
+      <img class="lightbox-image" src="" alt="Expanded photograph" data-lightbox-image />
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Nicolas Martinet</p>
+    </footer>
+  </body>
+</html>

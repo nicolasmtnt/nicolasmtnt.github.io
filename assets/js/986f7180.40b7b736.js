@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[972],{5933:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/react","name":"react","count":4,"permalink":"/blog/tags/react"}')}}]);
